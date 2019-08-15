@@ -566,6 +566,7 @@ figure.effect-bubba:hover p {
 
 section#contact form {
     margin-top: 15px;
+    
 }
 section#contact.form-group {
 margin-bottom: 25px;
@@ -586,6 +587,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 .contact p {
     font-size: 13px;
+    
 }
 
 .contact .day {
