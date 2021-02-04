@@ -19,7 +19,7 @@ Primary use:	One page
 [Color codes]
 
 Buttons, etc:	#726FB9 (blue)
-hover color:	#fed136 (yellow)
+hover color:	#bdbcbb (gray)
 -------------------------------------------------------------------*/
 
 /*--------------------
@@ -64,7 +64,7 @@ p {
 }
 
 a:hover, a:focus, a:active, a.active {
-    color: #fec503;
+    color: #bdbcbb;
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
@@ -72,7 +72,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #bdbcbb;
 }
 
 @media (min-width: 768px) {
@@ -105,14 +105,14 @@ section {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #fed136;
-	border-color: #fed136
+	background-color: #bdbcbb;
+	border-color: #bdbcbb
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+	background-color: #bdbcbb
 }
 .navbar-default .nav li a {
 	font-family: 'EB Garamond', serif;
@@ -122,18 +122,18 @@ section {
 	color:#fff
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #fed136;
+	color: #bdbcbb;
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #fed136
+	background-color: #bdbcbb
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #fec503
+	background-color: #bdbcbb
 }
 
 @media (min-width:768px) {
@@ -662,7 +662,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FED136;
+	background-color: #3d3d3a;
     margin-right: 15px;
     padding: 5px 10px;
 }
@@ -673,14 +673,14 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #bdbcbb;
+    border-color: #3d3d3a;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #bdbcbb;
+    border-color: #3d3d3a;
 }
 
 .btn {
@@ -741,7 +741,7 @@ font-size: 11px;
     transition: 1s;
 }
 #back-top a:hover {
-    background: #fed136;
+    background: #3d3d3a;
 }
 /* arrow icon (span tag) */
 #back-top i {
